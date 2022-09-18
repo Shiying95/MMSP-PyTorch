@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="vilt",
+    name="mmsp",
     packages=find_packages(
         exclude=[".dfc", ".vscode", "dataset", "notebooks", "result", "scripts"]
     ),
     version="1.0.0",
     license="MIT",
-    description="ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
-    author="Wonjae Kim",
-    author_email="wonjaekim@kakao.com",
-    url="https://github.com/dandelin/vilt'",
-    keywords=["vision and language pretraining"],
+    description="MMSP: Multi-Modal Sale Prediction",
+    author="Shiying Ni",
+    author_email="nisy13@163.com",
+    url="https://github.com/Shiying95/MMSP-PyTorch",
+    keywords=["multi-modal sale prediction"],
     install_requires=["torch", "pytorch_lightning"],
 )
